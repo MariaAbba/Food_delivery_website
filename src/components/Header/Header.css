@@ -15,6 +15,7 @@
   max-width: 50%;
   bottom: 10%;
   left: 6vw;
+  animation: fadeIn 3s;
 }
 
 .header-contents h2 {
@@ -36,4 +37,5 @@
   padding: 1vw 2.3vw;
   background-color: white;
   font-size: max(1vw, 13px);
+  border-radius: 50px;
 }
