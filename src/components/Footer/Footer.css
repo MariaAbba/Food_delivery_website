@@ -51,8 +51,17 @@
   border: none;
 }
 
-.footer-content-center {}
 
-.footer-content-right {}
+@media (max-width: 750px) {
 
-.footer-copyright {}
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+
+}
